@@ -1,11 +1,11 @@
-name: "John Appleseed"
-title: "John Appleseed"
-pagetitle: "John Appleseed"
-base_url: https://glavine1.github.io/
+name: "Boa Kim"
+title: "Boa Kim"
+pagetitle: "Boa Kim"
+base_url: https://boa74.github.io/
 google_analytics: "" # e.g. "UA-XXXXXXXXX-1", GA tracking code
 output_dir: "."
 navbar:
-  title: "John Appleseed"
+  title: "Boa Kim"
   left:
     - text: "Tutorials"
       href: tutorials.html
@@ -27,13 +27,13 @@ navbar:
     #- icon: ai-cv ai-lg
     #  href: files/sample_resume.pdf
     - icon: fab fa-github
-      href: http://github.com/
-    - icon: fab fa-linkedin-in
-      href: https://www.linkedin.com/
-    - icon: ai-google-scholar ai-lg
-      href: https://scholar.google.com/
-    - icon: ai-researchgate ai-lg
-      href: https://www.researchgate.net/
+      href: http://github.com/boa74
+   # - icon: fab fa-linkedin-in
+    #  href: https://www.linkedin.com/
+    #- icon: ai-google-scholar ai-lg
+     # href: https://scholar.google.com/
+    #- icon: ai-researchgate ai-lg
+     # href: https://www.researchgate.net/
 output:
   html_document:
     theme: cosmo
