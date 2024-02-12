@@ -23,10 +23,6 @@ navbar:
       menu: 
       - text: "Squid Game Elimination Analysis"
         href: visualization1.html
-    - text: "Research"
-      menu:
-      - text: "Master's Thesis-"
-        href: research1.html #files/msthesis.pdf
   right:
     - icon: fas fa-envelope
       href: contact.html
