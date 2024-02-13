@@ -423,6 +423,7 @@ src="https://img.shields.io/badge/-Excel-success" /></p>
 <p><br><br><br></p>
 <div id="abstract" class="section level3">
 <h3>1. Abstract</h3>
+<p><br></p>
 <p>This study examines cause-related product consumption as a costly
 signal that can imply positive status to others. While existing research
 typically investigates status consumption for luxury products, this
@@ -436,37 +437,43 @@ in the observers.</p>
 </div>
 <div id="research-framework" class="section level3">
 <h3>2. Research Framework</h3>
+<p><br></p>
 <p align="center">
 <img src="images/framework.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p><br></p>
-<p><br><br></p>
 </div>
 <div id="hypotheses" class="section level3">
 <h3>3. Hypotheses</h3>
+<p><br></p>
 <p>-H1: Cause-related product consumption is expected to lead to higher
-status inferences compared to general product consumption. -H2: The
-effect specified in H1 is mediated by perceived altruism.</p>
+status inferences compared to general product consumption.</p>
+<p>-H2: The effect specified in H1 is mediated by perceived
+altruism.</p>
 <p>-H3: In the effect of cause related products consumption on status
 inference through the perceived altruism, people with high moral
 identity symbolism will have a stronger effect than those with low moral
 identity symbolism.</p>
 <p><br></p>
 </div>
-<div id="methodology-summary" class="section level3">
-<h3>4. Methodology &amp; Summary</h3>
+<div id="methodology-results" class="section level3">
+<h3>4. Methodology &amp; Results</h3>
 <ul>
-<li>LASSO regressions showed the best performance with a cross
-validation RMSE-score of 0.1121. Although there is a lot of
-multicollinearity among the variables, LASSO regression include feature
-selection; it does not select a substantial number of the available
-variables in its model, as it is supposed to do.</li>
-<li>The XGBoost model also performs very well with a cross validation
-RMSE of 0.1162.</li>
-<li>As those two algorithms are very different, averaging predictions is
-likely to improve the predictions. As the Lasso cross validated RMSE is
-better than XGBoost’s CV score, I decided to weight the Lasso results
-double.</li>
+<li><p>Main Effect(H1). There was a significant difference in status
+inference based on cause-related product consumption, with status
+inference being significantly higher for cause-related product
+consumption compared to general product consumption (M no
+condition=4.779, SD=.779 vs. M condition=5.053, SD= .715, t(146)=-2.217,
+p=0.028). Thus, the impact of cause-related product consumption on
+status inference was confirmed to be significant</p></li>
+<li><p>Mediation Effect(H2) The mediation analysis showed that perceived
+altruism mediated the effect of cause Source Cause related Products
+Consumption Hayes(2013, model 4), I tested the significance of the
+mediator by 5000 bootstrapped samples.</p></li>
+<li><p>As those two algorithms are very different, averaging predictions
+is likely to improve the predictions. As the Lasso cross validated RMSE
+is better than XGBoost’s CV score, I decided to weight the Lasso results
+double.</p></li>
 </ul>
 <p><br></p>
 </div>
