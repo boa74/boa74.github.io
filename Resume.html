@@ -11,7 +11,7 @@
 
 
 
-<title>Stat2</title>
+<title>Resume</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -332,13 +332,25 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Coding Projects
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Resume.html">Coding Projects</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Resume
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="files/Boa Kim_Resume.pdf">Resume</a>
+      <a href="Resume.html">Resume</a>
     </li>
   </ul>
 </li>
@@ -384,55 +396,11 @@ div.tocify {
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
 <p><br><br><br></p>
-<div id="predicting-airbnb-prices" class="section level2">
-<h2><strong>Predicting Airbnb Prices </strong></h2>
-<p><img src="https://img.shields.io/badge/Using-SPSS-blue" /> <img
-src="https://img.shields.io/badge/-Excel-red" /> <img
-src="https://img.shields.io/badge/--success" /></p>
+<div id="resume" class="section level3">
+<h3>Resume</h3>
+<p>Please click <a href="files/Boa%20Kim_Resume.pdf">HERE</a> for the
+details of the resume.</p>
 <p><br></p>
-<p><br><br><br></p>
-<div id="figure" class="section level3">
-<h3>1. Figure</h3>
-<p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
-</p>
-<p align="center">
-[Fig. LASSO regression features by importance]
-</p>
-<p><br></p>
-<p><br><br></p>
-</div>
-<div id="goal" class="section level3">
-<h3>2. Goal</h3>
-<p>To predict the final price of each home using 79 explanatory
-variables describing (almost) every aspect of residential homes in Ames,
-Iowa.</p>
-<p><br></p>
-</div>
-<div id="methodology-summary" class="section level3">
-<h3>3. Methodology &amp; Summary</h3>
-<ul>
-<li>LASSO regressions showed the best performance with a cross
-validation RMSE-score of 0.1121. Although there is a lot of
-multicollinearity among the variables, LASSO regression include feature
-selection; it does not select a substantial number of the available
-variables in its model, as it is supposed to do.</li>
-<li>The XGBoost model also performs very well with a cross validation
-RMSE of 0.1162.</li>
-<li>As those two algorithms are very different, averaging predictions is
-likely to improve the predictions. As the Lasso cross validated RMSE is
-better than XGBoost’s CV score, I decided to weight the Lasso results
-double.</li>
-</ul>
-<p><br></p>
-</div>
-<div id="code" class="section level3">
-<h3>4. Code</h3>
-<p>Please click <a
-href="https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report">HERE</a>
-for the analysis report and code.</p>
-<p><br></p>
-</div>
 </div>
 
 

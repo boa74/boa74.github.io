@@ -13,12 +13,15 @@ navbar:
     #  menu: 
      # - text: "Predicting House Prices in Iowa"
       #  href: stat1.html
-      #- text: "Predicting Airbnb prices"
-       # href: stat2.html
+    - text: "Coding Projects"
+      menu: 
+      - text: "Coding Projects"
+        href: Resume.html
+     
     - text: "Resume"
       menu: 
       - text: "Resume"
-        href: files/Boa Kim_Resume.pdf
+        href: Resume.html
     #- text: "Visualization"
      # menu: 
       #- text: "Squid Game Elimination Analysis"

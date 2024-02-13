@@ -72,8 +72,7 @@ than those with low moral identity symbolism.
 The mediation analysis showed that perceived altruism mediated the effect of cause Source Cause related Products Consumption Hayes(2013, model 4), I tested the significance of the mediator by 5000 bootstrapped 
 samples.
 
-  + As those two algorithms are very different, averaging predictions is likely to improve the predictions. As the Lasso cross validated RMSE is better than XGBoost's CV score, I decided to weight the Lasso results double.
-
+  +
 <br>
 
 ### 5. Full Thesis
