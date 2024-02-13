@@ -9,23 +9,23 @@ navbar:
   left:
     - text: "Tutorials"
       href: tutorials.html
-    - text: "Stat/ML"
+    #- text: "Stat/ML"
+    #  menu: 
+     # - text: "Predicting House Prices in Iowa"
+      #  href: stat1.html
+      #- text: "Predicting Airbnb prices"
+       # href: stat2.html
+    - text: "Resume"
       menu: 
-      - text: "Predicting House Prices in Iowa"
-        href: stat1.html
-      - text: "Predicting Airbnb prices"
-        href: stat2.html
-    - text: "DB/SQL"
-      menu: 
-      - text: "Movie Explorer"
-        href: dbsql1.html
-    - text: "Visualization"
-      menu: 
-      - text: "Squid Game Elimination Analysis"
-        href: visualization1.html
+      - text: "Resume"
+        href: files/Boa Kim_Resume.pdf
+    #- text: "Visualization"
+     # menu: 
+      #- text: "Squid Game Elimination Analysis"
+       # href: visualization1.html
     - text: "Research"
       menu:
-      - text: "Master's Thesis-"
+      - text: "Master's Thesis"
         href: research1.html #files/msthesis.pdf
   right:
     - icon: fas fa-envelope
