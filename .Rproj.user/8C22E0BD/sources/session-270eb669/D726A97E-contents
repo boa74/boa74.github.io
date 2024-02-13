@@ -315,21 +315,19 @@ $(document).ready(function () {
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
 <p><br><br><br><br><br><br></p>
-<div id="john-appleseed" class="section level4">
-<h4><strong>John Appleseed</strong></h4>
-<div id="m.s.-candidate-in-data-science-abc-university"
-class="section level5">
-<h5>M.S. Candidate in Data Science | ABC University
-<img src="images/college_logo.png" style="width:35%;" align="right"></h5>
-<p>📍 Seoul <br> 📱 (123) 456 - 7890 <br> ✉️ <a
-href="mailto:jappleseed@abc.edu">jappleseed@abc.edu</a> <br></p>
+<div id="boa-kim" class="section level4">
+<h4><strong>Boa Kim</strong></h4>
+<div id="section" class="section level5">
+<h5></h5>
+<p>📍 Bethesda, Maryland <br> 📱 (240) 801 - 2135 <br> ✉️ <a
+href="mailto:boa8574.kim@gmail.com">boa8574.kim@gmail.cpm</a> <br></p>
 </div>
 </div>
 
 
 <br><br>
 <footer>
-  <p class="copyright text-muted" align="center">Copyright &copy; 2022 John Appleseed</p>
+  <p class="copyright text-muted" align="center">Copyright &copy; 2024 Boa Kim</p>
 </footer>
 
 
