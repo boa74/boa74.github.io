@@ -11,7 +11,7 @@
 
 
 
-<title>Index</title>
+<title>Stat1</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -222,6 +225,75 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -229,6 +301,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -253,7 +335,13 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="Resume.html">Coding Projects</a>
+      <a href="stat1.html">ABSENCE MANAGEMENT</a>
+    </li>
+    <li>
+      <a href="stat2.html">U.S. CONVERTER TOOL KIT</a>
+    </li>
+    <li>
+      <a href="stat3.html">ABSENCE MANAGEMENT</a>
     </li>
   </ul>
 </li>
@@ -310,31 +398,78 @@ $(document).ready(function () {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
-<p><br></p>
-<p align="center">
-<img src="images/self-photo.jpg" style="width:25%; border:0.5px solid; margin-right: 20px" align="center">
-</p>
+<p><br><br><br></p>
+<div id="absence-management" class="section level2">
+<h2><strong>ABSENCE MANAGEMENT</strong></h2>
+<p><img src="https://img.shields.io/badge/Using-C++-blue" /></p>
 <p><br></p>
 <p><br><br><br></p>
-<p>👋🏽 Hello, my name is Boa Kim.</p>
-<p>🏡 I am currently living in Bethesda, Maryland.</p>
-<p>🎓 I am eager to continue my education at the graduate level to
-further develop my analytical skills and pursue a career as a data
-scientist.</p>
-<p>💡 My research interests revolve around developing assessments and
-evaluations for mental health using machine learning, natural language
-processing, and text analysis.</p>
-<p>❤️ I am driven by the desire to contribute to improving the lives of
-individuals with mental disabilities by providing more accurate and
-effective assessments from a young age.</p>
-<p>⛺ In my free time, I enjoy camping. My favorite part of camping is
-grilling marshmallows with my daughter, Julia.</p>
-<p>💪 <strong>Skills</strong></p>
+<p align="center">
+<img src="images/absence%20management.jpg" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+</p>
+<p align="center">
+</p>
+<div id="intro" class="section level3">
+<h3>1. Intro</h3>
+<p>This program calculates the average number of days a company’s
+employees are absent based on user input. It prompts the user to enter
+the number of employees in the company, their individual ID numbers, and
+the number of days each employee has been absent during the past year.
+It then computes the total days absent and the average number of days
+absent per employee.</p>
+</div>
+<div id="features" class="section level3">
+<h3>2. Features</h3>
 <ul>
-<li>Programming: Python, R , HTML, CSS, Javascript, C++</li>
-<li>Data visualization: Tableau Software, Power BI</li>
-<li>Database: SQL</li>
+<li>Allows the user to input the number of employees in the
+company.</li>
+<li>Prompts the user to enter the ID numbers and days absent for each
+employee.</li>
+<li>Calculates the total days absent and the average days absent per
+employee.</li>
+<li>Outputs the results to a file named “EMPLOYEE_ABSENCE.txt”.</li>
+<li>Includes the name of the programmer and the due date in the output
+file.</li>
 </ul>
+</div>
+<div id="how-to-use" class="section level3">
+<h3>3. How to Use</h3>
+<ol style="list-style-type: decimal">
+<li>Compile the program.</li>
+<li>Run the executable.</li>
+<li>Follow the prompts to enter the necessary information.</li>
+<li>Check the output file “EMPLOYEE_ABSENCE.txt” for the results.</li>
+</ol>
+</div>
+<div id="example" class="section level3">
+<h3>4. Example</h3>
+<ul>
+<li><p>Calculate the average number of days a company’s employees are
+absent.</p></li>
+<li><p>The number of employees in the company: 3</p></li>
+<li><p>ID number of the Employee (4 digits or less): 001</p></li>
+<li><p>The number of days that the employee missed during the past year:
+5</p></li>
+<li><p>ID number of the Employee (4 digits or less): 002</p></li>
+<li><p>The number of days that the employee missed during the past year:
+3</p></li>
+<li><p>ID number of the Employee (4 digits or less): 003</p></li>
+<li><p>The number of days that the employee missed during the past year:
+7</p></li>
+<li><p>The 3 employees were absent a total of 15 days.</p></li>
+<li><p>The average number of days absent is 5.00 days.</p></li>
+</ul>
+<p><em>This program was developed by BOA KIM.</em></p>
+<p><br></p>
+</div>
+<div id="code" class="section level3">
+<h3>5. Code</h3>
+<p>Please click <a
+href="https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report">HERE</a>
+for the analysis report and code.</p>
+<p><br></p>
+</div>
+</div>
 
 
 <br><br>
@@ -343,6 +478,8 @@ grilling marshmallows with my daughter, Julia.</p>
 </footer>
 
 
+</div>
+</div>
 
 </div>
 
@@ -375,6 +512,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4,h5",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

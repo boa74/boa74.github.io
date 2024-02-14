@@ -9,10 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Boa Kim" />
 
 
-<title>contact.knit</title>
+<title>Stat1</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -30,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -223,6 +225,75 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -230,6 +301,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -317,13 +398,69 @@ $(document).ready(function () {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
-<p><br><br><br><br><br><br></p>
-<div id="boa-kim" class="section level4">
-<h4><strong>Boa Kim</strong></h4>
-<div id="section" class="section level5">
-<h5></h5>
-<p>📍 Bethesda, Maryland <br> 📱 (240) 801 - 2135 <br> ✉️ <a
-href="mailto:boa8574.kim@gmail.com">boa8574.kim@gmail.cpm</a> <br></p>
+<p><br><br><br></p>
+<div id="converter-toolkit" class="section level2">
+<h2><strong>CONVERTER TOOLKIT</strong></h2>
+<p><img src="https://img.shields.io/badge/Using-C++-blue" /></p>
+<p><br></p>
+<p><br><br><br></p>
+<p align="center">
+<img src="images/Temperature-Converter.webp" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+</p>
+<p align="center">
+</p>
+<div id="intro" class="section level3">
+<h3>1. Intro</h3>
+<p>This C++ program serves as a toolkit for converting various units
+including temperature, distance, and weight. It provides a user-friendly
+interface to input the desired conversion and displays the converted
+values accordingly.</p>
+</div>
+<div id="features" class="section level3">
+<h3>2. Features</h3>
+<ul>
+<li>Convert temperature from Celsius to Fahrenheit</li>
+<li>Convert distance from kilometers to miles</li>
+<li>Convert weight from kilograms to pounds</li>
+<li>Informative error handling for invalid inputs</li>
+<li>Programmer name and project details displayed at the end</li>
+</ul>
+</div>
+<div id="how-to-use" class="section level3">
+<h3>3. How to Use</h3>
+<ol style="list-style-type: decimal">
+<li>Run the program.</li>
+<li>Enter the name of the country (optional).</li>
+<li>Choose the conversion option from the menu.</li>
+<li>Follow the prompts to enter the necessary information.</li>
+<li>View the converted value.</li>
+<li>Repeat steps 3-5 for additional conversions.</li>
+<li>Quit the program when finished.</li>
+</ol>
+</div>
+<div id="example" class="section level3">
+<h3>4. Example</h3>
+<ul>
+<li><p>Enter a country name: USA</p></li>
+<li><p>Converter Toolkit</p></li>
+<li><p>Temperature Converter</p></li>
+<li><p>Distance Converter</p></li>
+<li><p>Weight Converter</p></li>
+<li><p>Quit</p></li>
+<li><p>Enter your choice (1-4): 2</p></li>
+<li><p>Please enter distance in kilometers: 10</p></li>
+<li><p>It is 6.00 miles</p></li>
+<li><p>USA sounds fun!!</p></li>
+</ul>
+<p><em>PROGRAMMER: Boa Kim</em></p>
+<p><br></p>
+</div>
+<div id="code" class="section level3">
+<h3>5. Code</h3>
+<p>Please click <a
+href="https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report">HERE</a>
+for the analysis report and code.</p>
+<p><br></p>
 </div>
 </div>
 
@@ -334,6 +471,8 @@ href="mailto:boa8574.kim@gmail.com">boa8574.kim@gmail.cpm</a> <br></p>
 </footer>
 
 
+</div>
+</div>
 
 </div>
 
@@ -366,6 +505,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4,h5",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -16,7 +16,10 @@ navbar:
       menu: 
       - text: "ABSENCE MANAGEMENT"
         href: stat1.html
-       
+      - text: "U.S. CONVERTER TOOL KIT"
+        href: stat2.html
+      - text: "ABSENCE MANAGEMENT"
+        href: stat3.html
        
      
     - text: "Resume"
