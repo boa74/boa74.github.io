@@ -14,7 +14,7 @@ output:
 
 <br><br><br>
 
-## **Gross Income Calculator of Blue Mont Hotel**
+## **GROSS INCOME CALCULATOR of BLUE MONT HOTEL**
 
 ![](https://img.shields.io/badge/Using-C++-blue)
 
@@ -26,7 +26,7 @@ output:
 
 
 <p align="center">
-<img src="hotel.jpeg" style="width:50%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/hotell.jpg" style="width:50%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
 
