@@ -11,7 +11,7 @@
 
 
 
-<title>Stat2</title>
+<title>Stat1</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -335,7 +335,7 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="Resume.html">Coding Projects</a>
+      <a href="stat1.html">Coding Projects</a>
     </li>
   </ul>
 </li>
@@ -393,50 +393,74 @@ div.tocify {
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
 <p><br><br><br></p>
-<div id="predicting-airbnb-prices" class="section level2">
-<h2><strong>Predicting Airbnb Prices </strong></h2>
-<p><img src="https://img.shields.io/badge/Using-SPSS-blue" /> <img
-src="https://img.shields.io/badge/-Excel-red" /> <img
-src="https://img.shields.io/badge/--success" /></p>
+<div id="absence-management" class="section level2">
+<h2><strong>ABSENCE MANAGEMENT</strong></h2>
+<p><img src="https://img.shields.io/badge/Using-C++-blue" /> <img
+src="https://img.shields.io/badge/-Javacript-yellow" /> <img
+src="https://img.shields.io/badge/-CSS-red" /> <img
+src="https://img.shields.io/badge/-HTML-success" /></p>
 <p><br></p>
 <p><br><br><br></p>
-<div id="figure" class="section level3">
-<h3>1. Figure</h3>
 <p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/absence%20management.jpg" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
-[Fig. LASSO regression features by importance]
 </p>
-<p><br></p>
-<p><br><br></p>
+<div id="intro" class="section level3">
+<h3>1. Intro</h3>
+<p>This program calculates the average number of days a company’s
+employees are absent based on user input. It prompts the user to enter
+the number of employees in the company, their individual ID numbers, and
+the number of days each employee has been absent during the past year.
+It then computes the total days absent and the average number of days
+absent per employee.</p>
 </div>
-<div id="goal" class="section level3">
-<h3>2. Goal</h3>
-<p>To predict the final price of each home using 79 explanatory
-variables describing (almost) every aspect of residential homes in Ames,
-Iowa.</p>
-<p><br></p>
-</div>
-<div id="methodology-summary" class="section level3">
-<h3>3. Methodology &amp; Summary</h3>
+<div id="features" class="section level3">
+<h3>2. Features</h3>
 <ul>
-<li>LASSO regressions showed the best performance with a cross
-validation RMSE-score of 0.1121. Although there is a lot of
-multicollinearity among the variables, LASSO regression include feature
-selection; it does not select a substantial number of the available
-variables in its model, as it is supposed to do.</li>
-<li>The XGBoost model also performs very well with a cross validation
-RMSE of 0.1162.</li>
-<li>As those two algorithms are very different, averaging predictions is
-likely to improve the predictions. As the Lasso cross validated RMSE is
-better than XGBoost’s CV score, I decided to weight the Lasso results
-double.</li>
+<li>Allows the user to input the number of employees in the
+company.</li>
+<li>Prompts the user to enter the ID numbers and days absent for each
+employee.</li>
+<li>Calculates the total days absent and the average days absent per
+employee.</li>
+<li>Outputs the results to a file named “EMPLOYEE_ABSENCE.txt”.</li>
+<li>Includes the name of the programmer and the due date in the output
+file.</li>
 </ul>
+</div>
+<div id="how-to-use" class="section level3">
+<h3>3. How to Use</h3>
+<ol style="list-style-type: decimal">
+<li>Compile the program.</li>
+<li>Run the executable.</li>
+<li>Follow the prompts to enter the necessary information.</li>
+<li>Check the output file “EMPLOYEE_ABSENCE.txt” for the results.</li>
+</ol>
+</div>
+<div id="example" class="section level3">
+<h3>4. Example</h3>
+<ul>
+<li><p>Calculate the average number of days a company’s employees are
+absent.</p></li>
+<li><p>The number of employees in the company: 3</p></li>
+<li><p>ID number of the Employee (4 digits or less): 001</p></li>
+<li><p>The number of days that the employee missed during the past year:
+5</p></li>
+<li><p>ID number of the Employee (4 digits or less): 002</p></li>
+<li><p>The number of days that the employee missed during the past year:
+3</p></li>
+<li><p>ID number of the Employee (4 digits or less): 003</p></li>
+<li><p>The number of days that the employee missed during the past year:
+7</p></li>
+<li><p>The 3 employees were absent a total of 15 days.</p></li>
+<li><p>The average number of days absent is 5.00 days.</p></li>
+</ul>
+<p><em>This program was developed by BOA KIM.</em></p>
 <p><br></p>
 </div>
 <div id="code" class="section level3">
-<h3>4. Code</h3>
+<h3>5. Code</h3>
 <p>Please click <a
 href="https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report">HERE</a>
 for the analysis report and code.</p>

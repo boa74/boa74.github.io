@@ -1,5 +1,5 @@
 ---
-pagetitle: "Stat2"
+pagetitle: "Stat1"
 output:
   html_document:
     toc: true
@@ -14,45 +14,65 @@ output:
 
 <br><br><br>
 
-## **Predicting Airbnb Prices **
+## **ABSENCE MANAGEMENT**
 
-![](https://img.shields.io/badge/Using-SPSS-blue)
-![](https://img.shields.io/badge/-Excel-red)
-![](https://img.shields.io/badge/--success)
+![](https://img.shields.io/badge/Using-C++-blue)
 
 <br>
 
 
 <br><br><br>
 
-### 1. Figure
+
 
 <p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/absence management.jpg" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
-[Fig. LASSO regression features by importance]
+
 </p>
+### 1. Intro
+
+This program calculates the average number of days a company's employees are absent based on user input. It prompts the user to enter the number of employees in the company, their individual ID numbers, and the number of days each employee has been absent during the past year. It then computes the total days absent and the average number of days absent per employee.
+
+### 2. Features
+
+- Allows the user to input the number of employees in the company.
+- Prompts the user to enter the ID numbers and days absent for each employee.
+- Calculates the total days absent and the average days absent per employee.
+- Outputs the results to a file named "EMPLOYEE_ABSENCE.txt".
+- Includes the name of the programmer and the due date in the output file.
+
+### 3. How to Use
+
+1. Compile the program.
+2. Run the executable.
+3. Follow the prompts to enter the necessary information.
+4. Check the output file "EMPLOYEE_ABSENCE.txt" for the results.
+
+### 4.  Example
+
+- Calculate the average number of days a company's employees are absent.
+- The number of employees in the company: 3
+- ID number of the Employee (4 digits or less): 001
+- The number of days that the employee missed during the past year: 5
+- ID number of the Employee (4 digits or less): 002
+- The number of days that the employee missed during the past year: 3
+- ID number of the Employee (4 digits or less): 003
+- The number of days that the employee missed during the past year: 7
+
+
+- The 3 employees were absent a total of 15 days.
+- The average number of days absent is 5.00 days.
+
+*This program was developed by BOA KIM.*
+
 
 
 <br>
 
-<br><br>
 
-### 2. Goal
-To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
-
-<br>
-
-### 3. Methodology & Summary
-
-  + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
-  + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
-  + As those two algorithms are very different, averaging predictions is likely to improve the predictions. As the Lasso cross validated RMSE is better than XGBoost's CV score, I decided to weight the Lasso results double.
-
-<br>
-
-### 4. Code
+### 5. Code
 
 Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the analysis report and code.
 

@@ -15,7 +15,8 @@ navbar:
     - text: "Coding Projects"
       menu: 
       - text: "Coding Projects"
-        href: Resume.html
+        href: stat1.html
+       
      
     - text: "Resume"
       menu: 

@@ -11,7 +11,7 @@
 
 
 
-<title>Data Visualization</title>
+<title>Index</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -225,75 +222,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-
 
 </head>
 
@@ -301,16 +229,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -335,7 +253,7 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="stat1.html">Coding Projects</a>
+      <a href="Resume.html">Coding Projects</a>
     </li>
   </ul>
 </li>
@@ -392,46 +310,31 @@ div.tocify {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
-<p><br><br><br></p>
-<div id="squid-game-elimination-analysis" class="section level2">
-<h2><strong>Squid Game Elimination Analysis</strong></h2>
-<p><img
-src="https://img.shields.io/badge/Using-Tableau%20Software-red" /></p>
 <p><br></p>
-<p>🚨<strong>THIS IS A FICTIONAL PROJECT MEANT AS AN EXAMPLE FOR THE
-STEPBYSTAT COMMUNITY.</strong></p>
-<p><br><br><br></p>
-<div id="screenshot-of-dashboard" class="section level3">
-<h3>1. Screenshot of Dashboard</h3>
 <p align="center">
-<img src="images/squid_game.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/self-photo.jpg" style="width:25%; border:0.5px solid; margin-right: 20px" align="center">
 </p>
-<p align="center">
-</p>
+<p><br></p>
 <p><br><br><br></p>
-</div>
-<div id="summary" class="section level3">
-<h3>2. Summary</h3>
+<p>👋🏽 Hello, my name is Boa Kim.</p>
+<p>🏡 I am currently living in Bethesda, Maryland.</p>
+<p>🎓 I am eager to continue my education at the graduate level to
+further develop my analytical skills and pursue a career as a data
+scientist.</p>
+<p>💡 My research interests revolve around developing assessments and
+evaluations for mental health using machine learning, natural language
+processing, and text analysis.</p>
+<p>❤️ I am driven by the desire to contribute to improving the lives of
+individuals with mental disabilities by providing more accurate and
+effective assessments from a young age.</p>
+<p>⛺ In my free time, I enjoy camping. My favorite part of camping is
+grilling marshmallows with my daughter, Julia.</p>
+<p>💪 <strong>Skills</strong></p>
 <ul>
-<li>Squid Game is a South Korean survival drama television series
-streaming on Netflix.</li>
-<li>The series runs a contest where 456 players, and all of them are in
-debt, thereby playing multiple different types of children’s games.</li>
-<li>The players soon realize that being eliminated means death, and
-prize money accrued as more and more people die.</li>
-<li>Game 1 an extremely lethl version of Red Light, Green Light, where
-anyone caught moving is shot dead on the spot. It generated the most
-casualites, 255 people, as <code>elimination=death</code> rule was not
-informed to the players beforehand.</li>
+<li>Programming: Python, R , HTML, CSS, Javascript, C++</li>
+<li>Data visualization: Tableau Software, Power BI</li>
+<li>Database: SQL</li>
 </ul>
-<p><br><br><br></p>
-</div>
-<div id="tableau-public" class="section level3">
-<h3>3. Tableau Public</h3>
-<p>For more insights, please check my Tableau Public by clicking <a
-href="https://public.tableau.com/app/profile/davidhoskins/viz/SquidGameWARNINGMAJORSPOILERS/SquidGame">HERE</a>.</p>
-</div>
-</div>
 
 
 <br><br>
@@ -440,8 +343,6 @@ href="https://public.tableau.com/app/profile/davidhoskins/viz/SquidGameWARNINGMA
 </footer>
 
 
-</div>
-</div>
 
 </div>
 
@@ -474,35 +375,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3,h4,h5",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = false;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
