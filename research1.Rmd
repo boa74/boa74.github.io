@@ -69,15 +69,32 @@ than those with low moral identity symbolism.
 
 
   + Mediation Effect(H2)
-The mediation analysis showed that perceived altruism mediated the effect of cause Source Cause related Products Consumption Hayes(2013, model 4), I tested the significance of the mediator by 5000 bootstrapped 
-samples.
+The mediation analysis showed that perceived altruism mediated the effect of cause related products consumption on status inference. Using methods prescribed by Hayes(2013, model 4), I tested the significance of the mediator by 5000 bootstrapped samples. As a result of analysis using Model 4, both the regression model of the path from cause related products consumption to perceived altruism (F=14.327, p< .001) and the regression model of the pathway from cause related products consumption and perceived altruism to status inference (F=13.515, p < .001) were statistically significant. 
+In addition, as a result of the significance test of the effect of cause related products consumption on the perceived altruism, the perceived altruism increased when cause related products were consumed (B= .642, t(146)=3.785, p=.000). In terms of the effect on status inference when cause related products consumption and perceived altruism are simultaneously inputted, cause related products consumption was found to have an insignificant effect on status inference (B= .078, t(146)=.002, p > .1 ), while the perceived altruism was found to have a significant effect on status inference (B = .305, t(146) = 5.512, p= .000). I also found that perceived altruism mediates the effect of cause-related products consumption on status inference (total effect= .274, 95% CI[.030, .518]; direct effect=.078, 95% CI[-.155, .312]; indirect effect=.196, 95% CI[.083, .336]). 
 
-  +
+Therefore, the mediating effect of perceived altruism was verified.
+
+
+  + Moderated Mediation Effect(H3)
+The SPSS PROCESS macro model 1 (Hayes, 2013) was employed to examine whether moral identity symbolism moderates the impact of cause-related products on perceived altruism. The analysis confirmed this moderation effect using SPSS PROCESS macro model 1 (Hayes, 2013). 
+Moral identity symbolization was identified as a significant moderator of the effect of cause-related products consumption on perceived altruism (B=1.32, t(146)=2.028, p=.049). The conditional indirect effect was most pronounced and statistically significant among individuals high in moral identity symbolization (1 SD above the mean of moral identity symbolization; B=1.176, t(146)=2.416, p=.019). 
+However, the conditional indirect effect was weakest and not statistically significant among individuals low in moral identity symbolism (1 SD below the mean of moral identity symbolization; B=-.144, t(146)=-.333, p>.1).
 <br>
 
-### 5. Full Thesis
+### 5. The result of the research framework
+<br>
 
-Please click [HERE](files/msthesis.pdf) for the full manuscript.
+<p align="center">
+<img src="images/RESULT_FRAMEWORK.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+</p>
+
+<br>
+
+
+
+### 6. Full Thesis
+
+Please click [HERE](files/msthesis.pdf) for the full thesis.
 
 <br>
 
