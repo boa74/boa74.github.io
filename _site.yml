@@ -14,8 +14,9 @@ navbar:
       #  href: stat1.html
     - text: "Coding Projects"
       menu: 
-      - text: "Coding Projects"
+      - text: "ABSENCE MANAGEMENT"
         href: stat1.html
+       
        
      
     - text: "Resume"
