@@ -72,7 +72,7 @@ This program calculates the average number of days a company's employees are abs
 
 ### 5. Code
 
-Please click [HERE](https://github.com/boa74/Employee-Absence/blob/main/Employee%20Absence%20Rate.cpp) for the analysis report and code.
+Please click [HERE](https://github.com/boa74/Employee-Absence/blob/main/Employee%20Absence%20Rate.cpp) for the code.
 
 <br>
 

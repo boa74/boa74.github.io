@@ -92,7 +92,7 @@ Washington
 
 ### 5. Code
 
-Please click [HERE](https://github.com/boa74/The-Gross-Income-Calculator-of-Blue-Mont-Hotel/blob/main/BKIM_Pr_%233_.cpp) for the analysis report and code.
+Please click [HERE](https://github.com/boa74/The-Gross-Income-Calculator-of-Blue-Mont-Hotel/blob/main/BKIM_Pr_%233_.cpp) for the code.
 
 <br>
 

@@ -75,7 +75,7 @@ This C++ program serves as a toolkit for converting various units including temp
 
 ### 5. Code
 
-Please click [HERE](https://github.com/boa74/Converter-Toolkit/blob/main/BKIM_Pr_%232_.cpp) for the analysis report and code.
+Please click [HERE](https://github.com/boa74/Converter-Toolkit/blob/main/BKIM_Pr_%232_.cpp) for the code.
 
 <br>
 
