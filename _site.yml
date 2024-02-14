@@ -25,7 +25,8 @@ navbar:
     - text: "Resume"
       menu: 
       - text: "Resume"
-        href: Resume.html
+        href: files/Boa Kim_Resume(Final)_0214.pdf
+        #Resume.html
     #- text: "Visualization"
      # menu: 
       #- text: "Squid Game Elimination Analysis"
