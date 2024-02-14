@@ -1,26 +1,26 @@
 {
-    "id": "7C7A7BBB",
-    "path": "~/GitHub/boa74.github.io/index.Rmd",
-    "project_path": "index.Rmd",
+    "id": "9087D4A5",
+    "path": "~/GitHub/boa74.github.io/Resume.Rmd",
+    "project_path": "Resume.Rmd",
     "type": "r_markdown",
-    "hash": "4191103264",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1707888439328.0,
+    "created": 1707899559244.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 11,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "14,37",
-        "scrollLine": "3"
+        "cursorPosition": "19,45",
+        "scrollLine": "10"
     },
     "folds": "",
-    "lastKnownWriteTime": 1707899985,
+    "lastKnownWriteTime": 1707854366,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1707899985494,
+    "last_content_update": 1707854366,
     "read_only": false,
     "read_only_alternatives": []
 }
