@@ -3,7 +3,7 @@
     "path": "~/GitHub/boa74.github.io/Resume.Rmd",
     "project_path": "Resume.Rmd",
     "type": "r_markdown",
-    "hash": "3211899935",
+    "hash": "4062949000",
     "contents": "",
     "dirty": false,
     "created": 1707899559244.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "19,52",
+        "cursorPosition": "19,50",
         "scrollLine": "11"
     },
     "folds": "",
-    "lastKnownWriteTime": 1708095940,
+    "lastKnownWriteTime": 1708096037,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1708095940444,
+    "last_content_update": 1708096037465,
     "read_only": false,
     "read_only_alternatives": []
 }
