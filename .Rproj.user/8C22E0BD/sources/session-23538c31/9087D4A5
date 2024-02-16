@@ -1,26 +1,26 @@
 {
-    "id": "C6E0AA66",
-    "path": "~/GitHub/boa74.github.io/research1.Rmd",
-    "project_path": "research1.Rmd",
+    "id": "9087D4A5",
+    "path": "~/GitHub/boa74.github.io/Resume.Rmd",
+    "project_path": "Resume.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "3211899935",
     "contents": "",
     "dirty": false,
-    "created": 1707927619359.0,
+    "created": 1707899559244.0,
     "source_on_save": false,
-    "relative_order": 10,
+    "relative_order": 11,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "83,9",
-        "scrollLine": "81"
+        "cursorPosition": "19,52",
+        "scrollLine": "11"
     },
     "folds": "",
-    "lastKnownWriteTime": 1707899268,
+    "lastKnownWriteTime": 1708095940,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1707899268,
+    "last_content_update": 1708095940444,
     "read_only": false,
     "read_only_alternatives": []
 }
