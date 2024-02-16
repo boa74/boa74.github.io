@@ -25,7 +25,7 @@ navbar:
     - text: "Resume"
       menu: 
       - text: "Resume"
-        href: "BoaKim_Resume(final1).pdf"
+        href: BoaKim_Resume(final1).pdf
         #Resume.html
     #- text: "Visualization"
      # menu: 
