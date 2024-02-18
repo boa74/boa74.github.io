@@ -43,8 +43,8 @@ navbar:
       href: files/Boa Kim_Resume(Final)_0214 (1).pdf
     - icon: fab fa-github
       href: http://github.com/boa74
-   # - icon: fab fa-linkedin-in
-    #  href: https://www.linkedin.com/
+    - icon: fab fa-linkedin-in
+      href: https://www.linkedin.com/in/boah-kim
     #- icon: ai-google-scholar ai-lg
      # href: https://scholar.google.com/
     #- icon: ai-researchgate ai-lg
