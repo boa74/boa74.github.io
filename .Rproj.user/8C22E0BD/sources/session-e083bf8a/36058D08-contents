@@ -5,6 +5,7 @@ base_url: https://boa74.github.io/
 google_analytics: "" # e.g. "UA-XXXXXXXXX-1", GA tracking code
 output_dir: "."
 navbar:
+  type: inverse
   title: "Boa Kim"
   left:
  
@@ -22,10 +23,10 @@ navbar:
         href: stat3.html
        
      
-    - text: "Resume"
-      menu: 
-      - text: "Resume"
-        href: files/Boa Kim_Resume(Final)_0214 (1).pdf
+   # - text: "Resume"
+    #  menu: 
+     # - text: "Resume"
+      #  href: files/Boa Kim_Resume(Final)_0214 (1).pdf
         #href: files/Resume.html
     #- text: "Visualization"
      # menu: 
@@ -38,8 +39,8 @@ navbar:
   right:
     - icon: fas fa-envelope
       href: contact.html
-    #- icon: ai-cv ai-lg
-    #  href: files/sample_resume.pdf
+    - icon: ai-cv ai-lg
+      href: files/Boa Kim_Resume(Final)_0214 (1).pdf
     - icon: fab fa-github
       href: http://github.com/boa74
    # - icon: fab fa-linkedin-in
@@ -50,7 +51,7 @@ navbar:
      # href: https://www.researchgate.net/
 output:
   html_document:
-    theme: cosmo
+    theme: flatly
     include:
       # in_header: header.html
       after_body: footer.html
