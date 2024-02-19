@@ -44,3 +44,4 @@ output: html_document
 + Data visualization: Tableau Software, Power BI
 + Database: SQL
 
+If you are interested in my resume, please click [HERE](files/Boa Kim_Resume(Final)_0214 (1).pdf).

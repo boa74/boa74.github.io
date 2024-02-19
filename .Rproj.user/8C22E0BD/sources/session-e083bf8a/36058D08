@@ -3,7 +3,7 @@
     "path": "~/GitHub/boa74.github.io/_site.yml",
     "project_path": "_site.yml",
     "type": "yaml",
-    "hash": "2046204421",
+    "hash": "3790151675",
     "contents": "",
     "dirty": false,
     "created": 1707860278504.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "46,48",
-        "scrollLine": "38"
+        "cursorPosition": "58,0",
+        "scrollLine": "43"
     },
     "folds": "",
-    "lastKnownWriteTime": 1708222405,
+    "lastKnownWriteTime": 1708364423,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1708222405944,
+    "last_content_update": 1708364423817,
     "read_only": false,
     "read_only_alternatives": []
 }

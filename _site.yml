@@ -5,7 +5,7 @@ base_url: https://boa74.github.io/
 google_analytics: "" # e.g. "UA-XXXXXXXXX-1", GA tracking code
 output_dir: "."
 navbar:
-  type: inverse
+  
   title: "Boa Kim"
   left:
  
@@ -13,13 +13,13 @@ navbar:
     #  menu: 
      # - text: "Predicting House Prices in Iowa"
       #  href: stat1.html
-    - text: "Coding Projects"
+    - text: "Mini Projects"
       menu: 
       - text: "ABSENCE MANAGEMENT"
         href: stat1.html
       - text: "U.S. CONVERTER TOOL KIT"
         href: stat2.html
-      - text: "GROSS INCOME CALCULATOR of BLUE MONT HOTEL"
+      - text: "GROSS INCOME CALCULATOR OF BLUE MONT HOTEL"
         href: stat3.html
        
      
@@ -28,10 +28,10 @@ navbar:
      # - text: "Resume"
       #  href: files/Boa Kim_Resume(Final)_0214 (1).pdf
         #href: files/Resume.html
-    #- text: "Visualization"
-     # menu: 
-      #- text: "Squid Game Elimination Analysis"
-       # href: visualization1.html
+    - text: "Visualization"
+      menu: 
+      - text: "Squid Game Elimination Analysis"
+        href: visualization1.html
     - text: "Research"
       menu:
       - text: "Master's Thesis"
