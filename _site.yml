@@ -28,10 +28,10 @@ navbar:
      # - text: "Resume"
       #  href: files/Boa Kim_Resume(Final)_0214 (1).pdf
         #href: files/Resume.html
-    - text: "Visualization"
-      menu: 
-      - text: "Squid Game Elimination Analysis"
-        href: visualization1.html
+    #- text: "Visualization"
+      #menu: 
+      #- text: "Squid Game Elimination Analysis"
+        #href: visualization1.html
     - text: "Research"
       menu:
       - text: "Master's Thesis"
