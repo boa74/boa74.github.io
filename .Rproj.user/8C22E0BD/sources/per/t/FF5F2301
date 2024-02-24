@@ -3,7 +3,7 @@
     "path": "~/GitHub/boa74.github.io/stat3.Rmd",
     "project_path": "stat3.Rmd",
     "type": "r_markdown",
-    "hash": "3543026635",
+    "hash": "4148382501",
     "contents": "",
     "dirty": false,
     "created": 1708743055003.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "57,4",
-        "scrollLine": "52"
+        "cursorPosition": "16,31",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1708743204,
+    "lastKnownWriteTime": 1708744015,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1708743204414,
+    "last_content_update": 1708744015531,
     "read_only": false,
     "read_only_alternatives": []
 }

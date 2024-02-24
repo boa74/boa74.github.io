@@ -14,7 +14,7 @@ output:
 
 <br><br><br>
 
-## **GROSS INCOME CALCULATOR of BLUE MONT HOTEL**
+## **GROSS INCOME CALCULATOR OF BLUE MONT HOTEL**
 
 ![](https://img.shields.io/badge/Using-C++-blue)
 
