@@ -1,0 +1,47 @@
+---
+pagetitle: "Index"
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
+
+<br>
+
+<p align="center">
+<img src="images/self-photo.jpg" style="width:30%; border:0.5px solid; margin-right: 20px" align="center">
+</p>
+
+<br>
+
+<br><br><br>
+
+👋🏽 Hello, my name is Boa Kim. I am from South Korea. 
+
+🏡 I am living in Bethesda, Maryland.
+
+💻 Currently, I am working in dentistry as a data administrator/administrative assistant to help my family's business.
+
+📓 I studied Computer Science and Mathematics at a local college and taught myself. 
+
+🎓 I have an MS in Business Administration from Seoul National University, South Korea, where I completed my master's thesis, which focused on consumer behavioral analysis based on statistical methods. 
+
+🧑‍🏫 I am eager to continue my education at the graduate level to further develop my analytical skills and pursue a career as a data scientist. 
+
+💡 My research interests revolve around developing assessments and evaluations for mental health using machine learning, natural language processing, and text analysis. 
+
+❤️ I am driven by the desire to contribute to improving the lives of individuals with mental disabilities by providing more accurate and effective assessments from a young age.
+
+⛺ In my free time, I enjoy camping. My favorite part of camping is grilling marshmallows with my daughter, Julia.
+
+
+
+💪 **Skills**
+
+
+
++ Programming: Python, R , HTML, CSS, Javascript, C++
++ Data visualization: Tableau Software, Power BI
++ Database: SQL
+
+If you are interested in my resume, please click [HERE](files/Boa Kim_Resume(Final)_0214 (1).pdf).
