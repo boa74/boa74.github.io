@@ -40,60 +40,59 @@ output:
 ### 3. Getting Started
 
 1. Compile the program using a C++ compiler.
+
 2. Run the compiled executable.
+
 3. Follow the on-screen prompts to input the required information.
 
 ### 4. Usage
 
 1. Enter the location of the hotel.
+
 2. Input the number of rooms and room types for each floor.
+
 3. The program will calculate the total income, total rooms, occupied rooms, unoccupied rooms, and occupancy rate.
 
-### 5. Example
-<video width="450" height="350" controls>
-  <source src="files/hetel.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+### 5. Output
 
-<br>
+
 - Suppose the Blue Mont Hotel is located in Washington.
-- Which location:
-Washington
-- Which floor(1-5):
-3
-- Enter total rooms of the 1th floor.(1-30):
-15
-- Enter total single rooms of the 1th floor.
-5
-- Enter total double rooms of the 1th floor.
-5
-- Enter total king rooms of the 1th floor.
-3
-- Enter total suite rooms of the 1th floor.
-2
-- Enter total rooms of the 2th floor.(1-30):
-20
-- Enter total single rooms of the 2th floor.
-8
-- Enter total double rooms of the 2th floor.
-7
-- Enter total king rooms of the 2th floor.
-3
-- Enter total suite rooms of the 2th floor.
-2
-- Enter total rooms of the 3th floor.(1-30):
-25
-- Enter total single rooms of the 3th floor.
-10
-- Enter total double rooms of the 3th floor.
-8
-- Enter total king rooms of the 3th floor.
-5
-- Enter total suite rooms of the 3th floor.
-2
-**Hotel Income: 3640**
-<br>
 
+- Which location: Washington
+
+- Which floor(1-5): 3
+
+- Enter total rooms of the 1th floor.(1-30): 15
+
+- Enter total single rooms of the 1th floor: 5
+
+- Enter total double rooms of the 1th floor: 5
+
+- Enter total king rooms of the 1th floor: 3
+
+- Enter total suite rooms of the 1th floor: 2
+
+- Enter total rooms of the 2th floor.(1-30):20
+
+- Enter total single rooms of the 2th floor: 8
+
+- Enter total double rooms of the 2th floor: 7
+
+- Enter total king rooms of the 2th floor: 3
+
+- Enter total suite rooms of the 2th floor: 2
+
+- Enter total rooms of the 3th floor.(1-30): 25
+
+- Enter total single rooms of the 3th floor: 10
+
+- Enter total double rooms of the 3th floor: 8
+
+- Enter total king rooms of the 3th floor: 5
+
+- Enter total suite rooms of the 3th floor: 2
+
+**Hotel Income: 3640**
 
 ### 5. Code
 
@@ -101,4 +100,10 @@ Please click [HERE](https://github.com/boa74/The-Gross-Income-Calculator-of-Blue
 
 <br>
 
+<video width="450" height="350" controls>
+  <source src="files/hotel.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<br>
 
